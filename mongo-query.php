@@ -1,7 +1,8 @@
 /* include the php-mongo drivers*/
 include 'config-project.php';
 
- function insert_into_querylog($query){
+ function insert_into_querylog($query,$time){
+  
 /* insert the query into mongodb*/
 
 }
