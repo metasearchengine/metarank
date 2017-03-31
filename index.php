@@ -10,7 +10,8 @@ $list_b = array();
 $list_y = array();
 
 function generate_output_list($query){
-	insert_into_querylog($query);
+	$time_now=time();
+	insert_into_querylog($query,$time_now);
 	$list_g= get_response_google($query);
 	$list_b= get_response_bing($query);
 	$list_y=get_response_yahoo($query);
