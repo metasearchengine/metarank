@@ -3,7 +3,6 @@ include 'config-project.php';
 
 function call_google($query,$list){	
 	$ch = curl_init();
-	$number_of_requests=2;
 	for($i=0;$i<$number_of_requests;$i++){
 		$count=10;
 		$start_Index=1+$i*10;
