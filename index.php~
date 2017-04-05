@@ -28,7 +28,6 @@ $list_res=generate_output_list($input_query);
 
 for($i=0;$i<count($list_res);$i++){
 	//iterate over the results to show on webpage
-	$list_res[$i].PHP_EOL;
 }
 
 ?>

@@ -15,6 +15,7 @@ function call_google($query,$list){
 
 	echo $result.PHP_EOL;
 	//need to convert the result to array of three attributes.
-	return $list;	
+	return $list;
+	
 }
 ?>

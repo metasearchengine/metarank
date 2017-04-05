@@ -1,7 +1,7 @@
 <?php
 include 'config-project.php';
 
-function call_yahoo($query,$list){
+function call_yahoo($query){
 	return $list;
 }
 ?>
