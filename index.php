@@ -5,7 +5,7 @@ include 'config-project.php';
 include 'meta-rank.php';
 
 $input_query = $argv[1];
-$list = array(array());
+$list = array();
 $list_g = array(array());
 $list_b = array(array());
 $list_y = array(array());
