@@ -5,10 +5,10 @@ include 'config-project.php';
 include 'meta-rank.php';
 
 $input_query = $argv[1];
-$list = array();
-$list_g = array();
-$list_b = array();
-$list_y = array();
+$list = array(array());
+$list_g = array(array());
+$list_b = array(array());
+$list_y = array(array());
 
 function generate_output_list($query){
 	$time_now=time();
