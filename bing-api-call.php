@@ -24,7 +24,8 @@ function call_bing($query,$list){
 	$request->setBody("{body}");
 	try{
     		$response = $request->send();
-    		$result= $response->getBody().PHP_EOL;
+    		$result= $response->getBody()
+	
 	}catch (HttpException $ex){
     		echo $ex;
 	}
